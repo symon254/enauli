@@ -2,7 +2,7 @@ import axios from "axios";
 import store from "../store";
 
 const api = axios.create({
-    baseURL: "https://e-nauli-ussd-backup.herokuapp.com/api/v2.0",
+    baseURL: "https://e-nauli-ussd-backup.herokuapp.com/api/v1.0",
     headers: {
         "Content-Type": "application/json",
     },
